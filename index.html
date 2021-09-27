@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gradient Generator</title>
+        <link rel="stylesheet" href="/index.css">
+    </head>
+    <body>
+        <div class="title">
+            <p>Gradient Generator</p>
+        </div>
+        <container id="container" class="container" name="container">
+            <form class="form" >
+                <div class="row"> 
+                    <label>Pick two colours for the Gradient</label>
+                </div>
+                <div class="row">
+                    <label>Color one</label>
+                    <input id="selector-1" type="color" name="selector-1" value="#454fff">
+                </div>
+                <div class="row">
+                    <label>Color Two</label>
+                    <input id="selector-2" type="color" name="selector-2" value="#111215">
+                </div>
+                <div class="row">
+                    <label class="picker">Picker</label>
+                    <input id="picker" type="range" value="50" min="0" max="100">
+                </div>
+                <div class="row">
+                    <div class="btn">
+                        <p>Copy here:<span id="gradient"></span></p>
+                    </div>
+                </div>
+            </form>
+        </container>
+        <script type="text/javascript" src="/index.js"></script>
+    </body>
+</html>
